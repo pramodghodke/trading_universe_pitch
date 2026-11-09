@@ -9,6 +9,7 @@ import "@fontsource/jetbrains-mono/400.css";
 import "@fontsource/jetbrains-mono/500.css";
 import "./globals.css";
 import AnimatedCursor from "@/components/AnimatedCursor";
+import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata: Metadata = {
   title: "Trading Universe Academy — Course Ledger",
@@ -25,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="antialiased">
         <AnimatedCursor />
-        {children}
+        <SmoothScroll>{children}</SmoothScroll>
       </body>
     </html>
   );
