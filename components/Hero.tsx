@@ -65,7 +65,7 @@ export default function Hero() {
     <section
       id="top"
       ref={scope}
-      className="relative overflow-hidden pt-40 pb-24 md:pt-48 md:pb-32"
+      className="relative overflow-hidden pt-30 pb-24 md:pt-30 md:pb-32"
     >
       <div className="pointer-events-none absolute -top-24 right-[-10%] h-[520px] w-[520px] rounded-full bg-brass/10 blur-3xl" />
 
@@ -75,7 +75,7 @@ export default function Hero() {
             <p className="hero-eyebrow font-mono text-[11px] uppercase tracking-[0.16em] text-brass mb-6">
               Course Ledger · Trading Universe Academy
             </p>
-            <h1 className="font-display font-extrabold text-ink text-[15vw] leading-[0.92] md:text-[3rem] md:leading-[0.92] tracking-tight">
+            <h1 className="font-display font-extrabold text-ink text-[10vw] leading-[1] md:text-[3rem] md:leading-[0.92] tracking-tight">
               <span className="hero-line block">Every batch detail,</span>
               <span className="hero-line block">
                 <em className="font-accent font-normal italic text-brass">one link.</em> No PDFs
