@@ -17,9 +17,7 @@ export const metadata: Metadata = {
     "Shubham Bhosale's Trading Universe Academy — curriculum, mentor credentials, batch fees and FAQs in one link, in place of a PDF passed around on WhatsApp.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function RootLayout({ children, }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (

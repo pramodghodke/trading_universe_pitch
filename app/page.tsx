@@ -7,13 +7,11 @@ import Curriculum from "@/components/Curriculum";
 import Fees from "@/components/Fees";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
-import LandingPage from "@/components/LandingPageTest";
 
 export default function Home() {
   
   return (
     <main className="min-h-screen overflow-hidden">
-      {/* <LandingPage/> */}
       <Nav />
       <Hero />
       <Marquee />
